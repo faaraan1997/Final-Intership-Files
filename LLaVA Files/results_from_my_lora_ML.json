@@ -1,0 +1,1202 @@
+[
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_001.png",
+        "question": "What is the main topic of Lecture 9 in the AIM 5005 Machine Learning course?",
+        "original_response": "The main topic of Lecture 9 in the AIM 5005 Machine Learning course is K-Nearest Neighbor (KNN).",
+        "predicted_response": "The main topic of Lecture 9 is K-nearest neighbor (KNN) algorithm, with a focus on its implementation and applications.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_001.png",
+        "question": "Who is the instructor for the K-Nearest Neighbor lecture in the AIM 5005 course?",
+        "original_response": "The instructor for the K-Nearest Neighbor lecture in the AIM 5005 course is Dr. Youshan Zhang.",
+        "predicted_response": "The instructor for the K-Nearest Neighbor lecture is Dr. Youshan Zhang.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_001.png",
+        "question": "On what date was Lecture 9 on K-Nearest Neighbor conducted?",
+        "original_response": "Lecture 9 on K-Nearest Neighbor was conducted on March 15, 2023.",
+        "predicted_response": "Lecture 9 on K-Nearest Neighbor was conducted on March 23, 2023.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_001.png",
+        "question": "Explain the K-Nearest Neighbor algorithm.",
+        "original_response": "The K-Nearest Neighbor algorithm is a non-parametric method used for classification and regression. It works by finding the k closest data points in the training set to the point that needs to be classified and predicts the label based on the majority vote of its neighbors.",
+        "predicted_response": "The K-Nearest Neighbor algorithm is a machine learning technique where the similarity between instances is determined by their proximity in feature space. It involves selecting the K most similar instances to a query point and using them to make predictions or classifications.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_001.png",
+        "question": "What is the significance of the parameter 'k' in KNN?",
+        "original_response": "The parameter 'k' in KNN determines the number of nearest neighbors to consider when making a prediction. The choice of 'k' affects the classification or regression result and is crucial for the model's performance, with too small 'k' leading to overfitting and too large 'k' to underfitting.",
+        "predicted_response": "The parameter 'k' in KNN determines the number of nearest neighbors used to make predictions.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_001.png",
+        "question": "How is distance measured in the KNN algorithm?",
+        "original_response": "Distance in the KNN algorithm is typically measured using Euclidean distance, although other metrics such as Manhattan, Minkowski, or Hamming distance can also be used, depending on the type of data and the specific application.",
+        "predicted_response": "Distance is measured using the Euclidean distance between data points.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_001.png",
+        "question": "What are the advantages of using the KNN algorithm for classification?",
+        "original_response": "Advantages of using the KNN algorithm include its simplicity, effectiveness in practice for many cases where the decision boundary is not linear, and the fact that it does not assume any underlying data distribution.",
+        "predicted_response": "The KNN algorithm offers several advantages for classification tasks, including its ability to handle high-dimensional data, its scalability to large datasets, and its interpretability through the use of feature vectors.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_001.png",
+        "question": "Can KNN be used for regression problems?",
+        "original_response": "Yes, KNN can be used for regression problems. Instead of taking a majority vote among the neighbors, it averages the target values of the nearest neighbors for prediction.",
+        "predicted_response": "KNN is primarily used for classification tasks, but it can be adapted for regression problems by treating the target variable as a categorical variable with multiple classes.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_001.png",
+        "question": "What are the challenges associated with KNN?",
+        "original_response": "Challenges associated with KNN include determining the optimal value of 'k', the curse of dimensionality making distance less meaningful in high-dimensional spaces, and the computational cost of calculating distance from each query point to all training samples.",
+        "predicted_response": "Challenges associated with KNN include the need for careful selection of the number of neighbors (k) and the potential for overfitting if k is too large.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_002.png",
+        "question": "What is the role of ChatGPT in the homework according to the slide?",
+        "original_response": "The role of ChatGPT in the homework is to be integrated by the students, potentially affecting their points based on whether or not the teacher discovers its use.",
+        "predicted_response": "ChatGPT is involved in the homework, where students are randomly picked up to 5, and if a student catches another, they will lose points.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_002.png",
+        "question": "What happens if a student is caught using ChatGPT for their homework?",
+        "original_response": "If a student is caught using ChatGPT for their homework, they will lose 2 points.",
+        "predicted_response": "If a student is caught using ChatGPT for their homework, they will lose points.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_002.png",
+        "question": "How many students will be randomly picked in the activity mentioned on the slide?",
+        "original_response": "Five students will be randomly picked in the activity.",
+        "predicted_response": "5 students will be randomly picked in the activity mentioned on the slide.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_002.png",
+        "question": "What reward does a student get if they use ChatGPT and are not caught?",
+        "original_response": "If a student uses ChatGPT and is not caught, they will receive 5 points.",
+        "predicted_response": "A student gets extra points if they use ChatGPT and are not caught.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_002.png",
+        "question": "What additional reward is given when a wrong guess is made?",
+        "original_response": "The student who was wrongly guessed to have used ChatGPT will receive an extra 5 points.",
+        "predicted_response": "An additional point is awarded to the student who made the wrong guess.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_002.png",
+        "question": "What is the total number of points a student can earn if they use ChatGPT without being caught?",
+        "original_response": "A student can earn a total of 10 points if they use ChatGPT without being caught, 5 points for successful use and 5 additional points if another student incorrectly guesses that they used ChatGPT.",
+        "predicted_response": "A student can earn a total of 5 points if they use ChatGPT without being caught.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_002.png",
+        "question": "What is the potential point swing for using ChatGPT undetected versus being caught?",
+        "original_response": "The potential point swing is 12 points: losing 2 points if caught using ChatGPT, versus gaining 10 points for using it undetected (5 for the task and 5 bonus if wrongly accused).",
+        "predicted_response": "The potential point swing for using ChatGPT undetected is 5 points, while the penalty for being caught is 3 points.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_002.png",
+        "question": "Can you describe the incentive system created for the use of ChatGPT in homework?",
+        "original_response": "The incentive system for using ChatGPT in homework is designed to reward risk-taking and successful deception. If a student uses ChatGPT and avoids detection, they are rewarded, but if they are caught, they are penalized.",
+        "predicted_response": "The incentive system involves students competing to see who can get the most points by using ChatGPT.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_002.png",
+        "question": "What is the pedagogical objective behind the integration of ChatGPT as mentioned in the slide?",
+        "original_response": "The pedagogical objective is not explicitly mentioned, but it may be to encourage critical thinking about the use of AI in academic work, and to understand the ethical considerations of using such tools.",
+        "predicted_response": "The pedagogical objective is to enhance the learning experience by providing students with immediate feedback and assistance.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_003.png",
+        "question": "Explain the first step in the k-means algorithm.",
+        "original_response": "The first step in the k-means algorithm is to decide on the number of clusters, denoted as 'k'. This determines how many clusters the algorithm will attempt to identify in the dataset.",
+        "predicted_response": "The first step in the k-means algorithm involves deciding on a value for k, which represents the number of clusters.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_003.png",
+        "question": "How does the k-means algorithm initialize cluster centers?",
+        "original_response": "In the k-means algorithm, the cluster centers are initialized randomly, if necessary. This means that the initial position of the centroids is chosen at random from the data points.",
+        "predicted_response": "The k-means algorithm randomly initializes cluster centers.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_003.png",
+        "question": "Describe how the k-means algorithm assigns class memberships.",
+        "original_response": "The k-means algorithm assigns class memberships by deciding the class for the N objects based on the nearest cluster center. Each object is assigned to the cluster with the closest centroid.",
+        "predicted_response": "The k-means algorithm assigns class memberships to objects by placing them into the nearest cluster center.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_003.png",
+        "question": "What does the k-means algorithm do after assigning class memberships?",
+        "original_response": "After assigning class memberships, the k-means algorithm re-estimates the cluster centers. This is done by assuming the current memberships are correct and recalculating the centroids based on the assigned points.",
+        "predicted_response": "After assigning class memberships to the N objects, the k-means algorithm re-estimates the cluster centers by assuming the memberships found above are correct.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_003.png",
+        "question": "When does the k-means algorithm conclude its process?",
+        "original_response": "The k-means algorithm concludes its process when none of the N objects change their cluster membership in the latest iteration, indicating that the centroids have stabilized and further iterations will not alter the configuration.",
+        "predicted_response": "The k-means algorithm concludes its process when none of the N objects change membership in the last iteration.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_003.png",
+        "question": "What is the significance of the initial value of k in the k-means algorithm?",
+        "original_response": "The initial value of k is significant because it directly influences the granularity of the clustering. A smaller k may lead to underfitting, while a larger k can cause overfitting. It's a parameter that needs to be chosen carefully, often using methods like the elbow method.",
+        "predicted_response": "The initial value of k determines the number of clusters in the initial clustering.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_003.png",
+        "question": "Can you change the value of k during the k-means algorithm process?",
+        "original_response": "Typically, the value of k is not changed during the k-means clustering process. It is set at the beginning and remains constant throughout the algorithm's execution. Changing k would require restarting the clustering process.",
+        "predicted_response": "Yes, the value of k can be changed during the k-means algorithm process.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_003.png",
+        "question": "Why is random initialization of cluster centers used in the k-means algorithm?",
+        "original_response": "Random initialization of cluster centers is used to break symmetry and ensure diverse starting conditions for the algorithm. It can help in avoiding poor clustering by starting the centroids in different regions of the data space.",
+        "predicted_response": "Random initialization of cluster centers helps avoid bias towards certain objects and ensures that the algorithm explores the entire dataset.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_003.png",
+        "question": "What are the consequences of poor initialization of k in the k-means algorithm?",
+        "original_response": "Poor initialization of k can lead to suboptimal clustering results. If k is too low, the algorithm might merge distinct clusters; if it's too high, it might split natural clusters into smaller, artificial ones. It can also affect the convergence time of the algorithm.",
+        "predicted_response": "Poor initialization of k can lead to suboptimal clustering results, as it may not accurately capture the underlying structure of the data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_004.png",
+        "question": "Describe the initialization process in the EM algorithm for Gaussian mixtures.",
+        "original_response": "The initialization process involves setting the means (\u03bck), covariances (\u03a3k), and mixing coefficients (\u03c0k) for each of the Gaussian components in the mixture. The number of components k is also decided, and an initial value is set for each parameter.",
+        "predicted_response": "In the EM algorithm for Gaussian mixtures, the initial values of the parameters are set randomly.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_004.png",
+        "question": "What does the expectation step (E-step) involve in the EM algorithm?",
+        "original_response": "In the E-step of the EM algorithm, the responsibilities (\u03b3(znk)) of each data point for each cluster are computed. This step estimates the probability that each data point belongs to each cluster, given the current parameter values.",
+        "predicted_response": "The E-step involves computing the expected log likelihood of the data given the current parameters, which is used to update the parameters in the M-step.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_004.png",
+        "question": "What is the goal of the maximization step (M-step) in the EM algorithm?",
+        "original_response": "The M-step's goal is to re-estimate the parameters (means, covariances, and mixing coefficients) based on the responsibilities calculated in the E-step. This step maximizes the expected log-likelihood given the current responsibilities.",
+        "predicted_response": "The goal of the M-step is to maximize the expected log likelihood of the data given the current parameters.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_004.png",
+        "question": "How does the EM algorithm decide when to stop iterating?",
+        "original_response": "The EM algorithm stops iterating when the parameters' values have converged, meaning that their values do not change significantly between successive iterations, or when the increase in the log-likelihood between iterations is below a certain threshold.",
+        "predicted_response": "The EM algorithm stops iterating when the log likelihood of the data under the current model is maximized.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_004.png",
+        "question": "What does the EM algorithm compute after each M-step?",
+        "original_response": "After each M-step, the EM algorithm computes the log likelihood. This is done to check the convergence of the algorithm, ensuring that the log likelihood is maximized, or to determine if further iterations are necessary.",
+        "predicted_response": "After each M-step, the EM algorithm computes the expected log likelihood of the data given the current parameters.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_004.png",
+        "question": "Why is the expectation step crucial in the EM algorithm?",
+        "original_response": "The expectation step is crucial because it establishes the 'soft' assignments of data points to clusters, which are essential for calculating the weighted estimates of the parameters in the subsequent maximization step.",
+        "predicted_response": "The expectation step is crucial in the EM algorithm because it allows the algorithm to update the parameters of the model based on the current state of the data, which is essential for maximizing the likelihood of the data given the model.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_004.png",
+        "question": "What are 'responsibilities' in the context of the EM algorithm?",
+        "original_response": "In the context of the EM algorithm, 'responsibilities' refer to the probabilities that each data point belongs to each of the Gaussian components, based on the current parameter estimates.",
+        "predicted_response": "In the context of the EM algorithm, 'responsibilities' refer to the probability of observing a particular data point given the parameters of the model.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_004.png",
+        "question": "How are new parameter values calculated in the M-step of the EM algorithm?",
+        "original_response": "New parameter values in the M-step are calculated using the responsibilities to weight the contribution of each data point when computing the new means, covariances, and mixing coefficients for the Gaussian components.",
+        "predicted_response": "In the M-step, new parameter values are calculated by maximizing the expected log likelihood of the data given the current parameter estimates.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_004.png",
+        "question": "What is the significance of the convergence criteria in the EM algorithm?",
+        "original_response": "The convergence criteria ensure that the EM algorithm stops when an optimal or satisfactory solution is reached, where further iterations do not significantly improve the fit of the model to the data.",
+        "predicted_response": "The convergence criteria in the EM algorithm ensures that the algorithm has converged to a local maximum of the log likelihood function, indicating that the parameters are optimal for the given data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_005.png",
+        "question": "List the main topics covered in the overview of the lecture.",
+        "original_response": "The main topics covered in the lecture overview include Different Learning Methods, K-Nearest Neighbor (KNN), and the Advantages and Disadvantages of KNN.",
+        "predicted_response": "The overview covers different learning methods, including K-nearest neighbor (KNN), advantages and disadvantages of KNN, and the role of KNN in classification.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_005.png",
+        "question": "What is K-Nearest Neighbor?",
+        "original_response": "K-Nearest Neighbor is a supervised machine learning algorithm used for classification and regression. It classifies a data point based on how its neighbors are classified.",
+        "predicted_response": "K-Nearest Neighbor is a machine learning algorithm that predicts the class label of a data point based on the class labels of its K nearest neighbors.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_005.png",
+        "question": "What are the advantages of KNN?",
+        "original_response": "Advantages of KNN include its simplicity, effectiveness for classification problems where the decision boundary is irregular, and no need for assumptions about the distribution of data.",
+        "predicted_response": "KNN offers advantages such as being computationally efficient, scalable, and suitable for handling large datasets.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_005.png",
+        "question": "What are the disadvantages of KNN?",
+        "original_response": "Disadvantages of KNN include its potentially high computation cost, especially with large datasets, and its sensitivity to the scale of the data and irrelevant features.",
+        "predicted_response": "The disadvantages of KNN include its sensitivity to the choice of k, which can affect the accuracy of the results, and its computational complexity, especially for large datasets.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_005.png",
+        "question": "Why is it important to learn different learning methods in machine learning?",
+        "original_response": "Learning different methods is important in machine learning because each method has its own strengths and weaknesses, and different methods are suited for different types of data and problems.",
+        "predicted_response": "Learning different learning methods in machine learning is important to understand the strengths and limitations of each approach, allowing for more informed decision-making and the ability to choose the most appropriate method for a given problem.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_005.png",
+        "question": "How does KNN differ from other learning methods?",
+        "original_response": "KNN differs from other learning methods in that it does not explicitly learn a model. Instead, it classifies new data points based on the classification of the nearest data points from the training set.",
+        "predicted_response": "KNN differs from other learning methods by focusing on the nearest neighbor principle, where the similarity between instances is determined by their proximity in feature space.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_005.png",
+        "question": "What might be a reason to choose KNN over other learning methods?",
+        "original_response": "A reason to choose KNN over other learning methods could be its ease of understanding and implementation, particularly when the data has a clear margin of separation between classes.",
+        "predicted_response": "KNN might be chosen over other learning methods due to its ability to handle categorical data and its simplicity in implementation.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_005.png",
+        "question": "In what scenarios could the disadvantages of KNN be particularly problematic?",
+        "original_response": "The disadvantages of KNN, such as computational cost and sensitivity to irrelevant features, could be particularly problematic in scenarios with very large datasets or datasets with many irrelevant or noisy features.",
+        "predicted_response": "The disadvantages of KNN could be particularly problematic in scenarios where the dataset is large, the number of features is high, or the number of classes is numerous, as these factors can lead to computational complexity and increased memory requirements.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_005.png",
+        "question": "How can the disadvantages of KNN be mitigated?",
+        "original_response": "The disadvantages of KNN can be mitigated by using techniques like feature scaling, feature selection to remove irrelevant features, and using efficient data structures like KD-trees for faster search.",
+        "predicted_response": "Disadvantages of KNN can be mitigated by using techniques such as dimensionality reduction, feature selection, and regularization to improve the efficiency and effectiveness of the algorithm.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_005.png",
+        "question": "What kind of learning method is KNN considered to be?",
+        "original_response": "KNN is considered to be a type of instance-based or memory-based learning method, as it relies on the specific instances of the training data for prediction.",
+        "predicted_response": "KNN is considered to be a nearest neighbor learning method.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_006.png",
+        "question": "Define eager learning in the context of machine learning.",
+        "original_response": "Eager learning is a type of machine learning approach where the model creates an explicit description of the target function based on the entire training dataset before receiving new data to make predictions.",
+        "predicted_response": "Eager learning refers to the process of training machine learning models on the entire dataset without any preprocessing or data transformation.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_006.png",
+        "question": "What is instance-based learning and why is it termed as 'Lazy' learning?",
+        "original_response": "Instance-based learning involves storing all training instances and making predictions by assigning the target function to a new instance based on these stored instances. It is termed 'Lazy' learning because it defers processing and generalization until a new instance needs to be classified.",
+        "predicted_response": "Instance-based learning involves learning from examples without explicit feature extraction. It is termed 'Lazy' learning because it does not explicitly describe the target function on the whole training set.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_006.png",
+        "question": "How does eager learning differ from lazy learning?",
+        "original_response": "Eager learning differs from lazy learning in that it constructs a predictive model before it begins to make predictions, requiring upfront computation, whereas lazy learning stores training instances and only performs computation when a prediction is needed for a new instance.",
+        "predicted_response": "Eager learning involves explicit description of target function on the whole training set, while lazy learning assigns function to a new instance as it arrives.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_006.png",
+        "question": "Explain the classification process in instance-based learning.",
+        "original_response": "In instance-based learning, classification is done by comparing the new instance with stored instances from the training set. The category of the new instance is determined based on the categories of its nearest neighbors in the training set.",
+        "predicted_response": "In instance-based learning, the classification process involves assigning a new instance to the class that it most closely resembles based on its features.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_006.png",
+        "question": "Why might one choose eager learning over instance-based learning?",
+        "original_response": "One might choose eager learning over instance-based learning when there is a need for quick response times in making predictions, as the model is already built and does not require any computation at prediction time.",
+        "predicted_response": "One might choose eager learning over instance-based learning if they prioritize speed and efficiency, as eager learning does not require explicit description of the target function.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_006.png",
+        "question": "What are the potential benefits of lazy learning?",
+        "original_response": "The potential benefits of lazy learning include simplicity, the ability to handle changes and updates to data easily, and no assumption about the underlying data distribution is needed.",
+        "predicted_response": "Lazy learning can lead to more efficient use of resources, as it only assigns instances to the classifier when they are needed.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_006.png",
+        "question": "What kind of problems are best suited for instance-based learning methods?",
+        "original_response": "Instance-based learning methods are best suited for problems where the dataset is small to medium in size, the data distribution is unknown, and the relationship between data points is important for making predictions.",
+        "predicted_response": "Instance-based learning methods are best suited for problems where the data is sparse and the training set is small, as they rely on the similarity between instances to make predictions.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_006.png",
+        "question": "Can eager learning handle large datasets efficiently?",
+        "original_response": "Eager learning may face challenges with large datasets as it requires processing the entire dataset upfront to build the model, which can be computationally intensive and time-consuming.",
+        "predicted_response": "Eager learning can handle large datasets efficiently by leveraging parallel processing and distributed computing.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_006.png",
+        "question": "How does the need for generalization influence the choice between eager and lazy learning?",
+        "original_response": "The need for generalization influences the choice between eager and lazy learning; eager learning is better when a broad generalization is needed, while lazy learning is suitable when predictions need to be highly adaptive to local data patterns.",
+        "predicted_response": "The need for generalization influences the choice between eager and lazy learning by affecting the trade-off between computational efficiency and model performance. Eager learning may be preferred when generalization is crucial, while lazy learning may be more suitable when computational efficiency is a priority.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_007.png",
+        "question": "Describe eager learning as presented on the slide.",
+        "original_response": "Eager learning is a machine learning paradigm where the model is fully trained on the entire dataset to construct a general, abstract model before it is required to make any predictions.",
+        "predicted_response": "Eager learning is described as a method where the model learns from the entire dataset during training, without the need for explicit data preprocessing.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_007.png",
+        "question": "Explain the concept depicted by the character and the red dots.",
+        "original_response": "The character's reaction to the red dots symbolizes how an eager learning model might generalize from the training data. It may deduce a rule from the overall pattern of the data, such as associating random movement with the presence of a mouse.",
+        "predicted_response": "The character represents the concept of learning, and the red dots symbolize the learning process.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_007.png",
+        "question": "What does the statement 'Any random movement => It\u2019s a mouse' signify in terms of machine learning?",
+        "original_response": "This statement implies that the eager learning model has generalized an observation from the training data to make predictions, equating random movement with the detection of a mouse, potentially overgeneralizing from the patterns it learned.",
+        "predicted_response": "The statement suggests that any random movement can be interpreted as a mouse, indicating the ability of machine learning algorithms to recognize patterns and make decisions based on observed data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_007.png",
+        "question": "How does eager learning ensure the model is ready before making predictions?",
+        "original_response": "Eager learning constructs a comprehensive model by analyzing and learning from the entire training dataset beforehand, which allows it to make predictions immediately when new data is encountered without additional computation.",
+        "predicted_response": "Eager learning ensures that the model is ready before making predictions by allowing it to access the model's parameters during the forward pass. This approach enables the model to make predictions without waiting for the entire training dataset to be processed.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_007.png",
+        "question": "What is the implication of the character saying 'I saw a mouse!' in a machine learning context?",
+        "original_response": "In machine learning, this could illustrate a predictive model's confidence in its findings based on the learned patterns, expressing a definitive prediction based on the learned characteristics of what a mouse's movement looks like.",
+        "predicted_response": "The implication is that the character has identified a mouse, which may be relevant to the task at hand.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_007.png",
+        "question": "Is the depiction on the slide an accurate representation of how eager learning works?",
+        "original_response": "The depiction simplifies the concept of eager learning. While it captures the essence of eager learning's upfront generalization, actual machine learning models involve more complex pattern recognition and generalization processes.",
+        "predicted_response": "The depiction on the slide is not an accurate representation of how eager learning works. Eager learning involves the use of gradient-based optimization methods, which are different from the depicted scenario.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_007.png",
+        "question": "Can the 'Any random movement => It\u2019s a mouse' rule lead to overfitting?",
+        "original_response": "Yes, such a rule could lead to overfitting if the model too narrowly interprets random movement as indicative of a mouse, without accounting for other possible explanations, leading to incorrect predictions.",
+        "predicted_response": "Yes, the 'Any random movement => It\u2019s a mouse' rule can lead to overfitting if it is too complex or if it captures noise in the data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_007.png",
+        "question": "How does this slide illustrate the concept of generalization in eager learning?",
+        "original_response": "The slide illustrates generalization in eager learning through the character who generalizes the presence of a mouse from random movements, showing how eager learning models abstract and generalize from training data to make predictions.",
+        "predicted_response": "The slide illustrates the concept of generalization in eager learning by showing a mouse and a cat. The mouse is initially perceived as a cat, but upon closer inspection, it is recognized as a mouse. This demonstrates the ability of eager learning to generalize from previous experiences and adapt to new situations.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_007.png",
+        "question": "What might be the downside of the generalization 'Any random movement => It\u2019s a mouse' shown on the slide?",
+        "original_response": "The downside is that this kind of rigid generalization might not account for variability and could lead to misclassifications if the model encounters random movements that are not due to a mouse.",
+        "predicted_response": "The downside of this generalization is that it may not accurately capture the complexity and diversity of real-world scenarios, leading to potential misinterpretations or ineffective decision-making.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_008.png",
+        "question": "Explain instance-based learning as depicted on the slide.",
+        "original_response": "Instance-based learning involves comparing new problems with instances of past cases stored in memory. It's a 'lazy' learning method where generalization of the training data is delayed until a query is made to the system.",
+        "predicted_response": "Instance-based learning involves the use of pre-labeled data to train a model, with the goal of making predictions based on similarities between instances.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_008.png",
+        "question": "What does the character's statement 'Its very similar to a Desktop!' indicate about instance-based learning?",
+        "original_response": "The character's statement illustrates the principle of instance-based learning where new instances are classified based on the similarity to known instances, here identifying an object as a desktop due to its resemblance to known desktops.",
+        "predicted_response": "The character's statement suggests that instance-based learning is similar to a desktop, indicating that it is a concept or process that can be easily understood or applied.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_008.png",
+        "question": "Why is instance-based learning considered 'lazy'?",
+        "original_response": "It is considered 'lazy' because it does minimal work during the training phase and defers computational effort to the classification phase when it evaluates new instances against stored ones.",
+        "predicted_response": "Instance-based learning is considered 'lazy' because it does not involve explicit modeling of the underlying data distribution. Instead, it relies on the assumption that similar instances are likely to be close together in the feature space.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_008.png",
+        "question": "How does instance-based learning use past cases to make predictions?",
+        "original_response": "Instance-based learning makes predictions by analyzing the new instance against the stored examples and typically uses measures of similarity, like distance functions, to find the closest match.",
+        "predicted_response": "Instance-based learning uses past cases to make predictions by identifying patterns and similarities between instances. It leverages the knowledge gained from previous cases to make informed decisions.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_008.png",
+        "question": "What is the importance of similarity measures in instance-based learning?",
+        "original_response": "Similarity measures are crucial in instance-based learning because they determine how the system evaluates which stored instances are most relevant to the new problem at hand.",
+        "predicted_response": "Similarity measures are crucial in instance-based learning as they determine the similarity between instances, enabling the identification of similar patterns and the retrieval of relevant data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_008.png",
+        "question": "Can instance-based learning be applied to categorizing electronic devices?",
+        "original_response": "Yes, instance-based learning can be applied to categorizing electronic devices by comparing the features of a new device to the features of previously labeled devices in the system's memory.",
+        "predicted_response": "Yes, instance-based learning can be applied to categorizing electronic devices based on their features.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_008.png",
+        "question": "What might be the limitations of instance-based learning as shown in the slide?",
+        "original_response": "Limitations may include the need for a significant memory to store all instances and the computational cost of comparing a new instance to all stored instances, which can be high if the dataset is large.",
+        "predicted_response": "The limitations of instance-based learning may include the assumption of linearity, the need for large amounts of data, and the assumption of independence between instances.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_008.png",
+        "question": "How does the model in instance-based learning decide which class a new instance belongs to?",
+        "original_response": "The model decides the class of a new instance by measuring its similarity to the stored instances and often selects the class of the most similar instance or a majority class among the nearest neighbors.",
+        "predicted_response": "The model in instance-based learning decides which class a new instance belongs to by comparing it to instances of each class in the training dataset.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_008.png",
+        "question": "Why might instance-based learning be preferable in a rapidly changing environment?",
+        "original_response": "In rapidly changing environments, instance-based learning is preferable because it can adapt to new patterns without the need for retraining, as it makes decisions based on the most recent and relevant stored instances.",
+        "predicted_response": "Instance-based learning may be preferable in a rapidly changing environment because it allows for more adaptive and flexible learning. It can quickly adapt to new data and changing patterns, making it more suitable for environments where conditions are constantly evolving.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_008.png",
+        "question": "In what scenario could instance-based learning be inefficient?",
+        "original_response": "Instance-based learning could be inefficient in scenarios where there is a vast amount of data to compare against, leading to slow prediction times, or where the dimensionality of the data is so high that similarity measures become less meaningful.",
+        "predicted_response": "Instance-based learning could be inefficient when dealing with large datasets or when the underlying patterns are complex and difficult to capture.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_009.png",
+        "question": "What is the core idea behind instance-based learning?",
+        "original_response": "The core idea behind instance-based learning is that similar examples have similar labels, and new examples are classified based on their resemblance to similar training examples.",
+        "predicted_response": "The core idea is to find examples that are similar to a given example, allowing for the prediction of the class label based on the most similar examples.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_009.png",
+        "question": "How does the algorithm of instance-based learning function?",
+        "original_response": "The algorithm functions by taking a new example and finding the most similar training examples to it. It then classifies the new example 'like' these most similar examples.",
+        "predicted_response": "The algorithm of instance-based learning functions by assigning a similarity score to new examples based on their similarity to previously seen examples.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_009.png",
+        "question": "What questions are important to address when using instance-based learning?",
+        "original_response": "Important questions include how to determine similarity between examples, how many similar training examples should be considered for classification, and how to resolve inconsistencies among the training examples.",
+        "predicted_response": "Important questions include determining how to determine similarity, how to handle inconsistencies among training examples, and how to resolve inconsistencies among the training examples.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_009.png",
+        "question": "Why is determining similarity crucial in instance-based learning?",
+        "original_response": "Determining similarity is crucial because the classification of new examples relies on the premise that they should be categorized 'like' the training examples they resemble the most.",
+        "predicted_response": "Determining similarity is crucial in instance-based learning because it enables the system to identify and retrieve the most similar examples from the training dataset. This similarity information is used to make predictions about new instances.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_009.png",
+        "question": "What are the challenges in defining 'similarity' for instance-based learning?",
+        "original_response": "Challenges include selecting the right metrics to quantify similarity, ensuring that the similarity measure is meaningful for the dataset, and scaling features appropriately so that one doesn't dominate the similarity calculation.",
+        "predicted_response": "Challenges in defining 'similarity' include determining the appropriate distance metric, handling imbalanced data, and addressing the curse of dimensionality.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_009.png",
+        "question": "How can inconsistencies among training examples affect instance-based learning?",
+        "original_response": "Inconsistencies among training examples can lead to confusion in the classification process, where similar examples might lead to different predictions, reducing the accuracy of the model.",
+        "predicted_response": "Inconsistencies among training examples can lead to inaccurate predictions and classification, as the algorithm may struggle to differentiate between similar instances.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_009.png",
+        "question": "What strategies might be used to resolve inconsistencies in instance-based learning?",
+        "original_response": "Strategies include using a weighted voting system based on similarity scores, selecting a larger number of nearest neighbors for consensus, or incorporating techniques to clean and preprocess the data.",
+        "predicted_response": "Strategies for resolving inconsistencies in instance-based learning may include re-evaluating the similarity criteria, adjusting the parameters of the similarity function, or incorporating additional information about the training examples.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_009.png",
+        "question": "In instance-based learning, how do you decide how many similar training examples to consider?",
+        "original_response": "The decision on the number of similar training examples to consider often depends on the complexity of the dataset, the balance between bias and variance, and the computational resources available.",
+        "predicted_response": "In instance-based learning, the number of similar training examples to consider is determined by the similarity threshold.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_009.png",
+        "question": "Can instance-based learning work with any type of data?",
+        "original_response": "Instance-based learning can work with a variety of data types, but its effectiveness may depend on the data's dimensionality, the presence of noise, and how well the chosen similarity measure reflects the true relationships within the data.",
+        "predicted_response": "Instance-based learning can work with any type of data, but it is particularly useful for datasets with a large number of instances.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_009.png",
+        "question": "What is the role of the training examples in instance-based learning?",
+        "original_response": "In instance-based learning, training examples serve as the knowledge base against which new instances are compared. Their classification influences how the new instances will be categorized.",
+        "predicted_response": "The training examples in instance-based learning serve as the basis for learning and making predictions. They are used to train the model to recognize patterns and similarities between instances.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_010.png",
+        "question": "List the algorithms mentioned in the slide.",
+        "original_response": "The algorithms mentioned are K-Nearest Neighbor Algorithm, Weighted Regression, and Case-based reasoning.",
+        "predicted_response": "The algorithms mentioned in the slide include k-nearest neighbor algorithm, weighted regression, and case-based reasoning.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_010.png",
+        "question": "What is the fundamental concept behind instance-based learning?",
+        "original_response": "Instance-based learning methods are based on comparing new problem instances with instances seen in training, which have been stored in memory.",
+        "predicted_response": "The fundamental concept behind instance-based learning is the ability to learn from examples, where instances are used to represent patterns or structures in the data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_010.png",
+        "question": "How does the K-Nearest Neighbor algorithm work?",
+        "original_response": "The K-Nearest Neighbor algorithm works by finding the 'k' closest training examples in the feature space and making predictions based on their classifications.",
+        "predicted_response": "The K-Nearest Neighbor algorithm works by selecting the K most similar data points within a specified distance threshold and using them to predict the class label of a new data point.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_010.png",
+        "question": "Could instance-based learning be used for real-time decision-making?",
+        "original_response": "Yes, instance-based learning can be used for real-time decision-making, as it often requires minimal training time but needs more time during the testing phase to make predictions.",
+        "predicted_response": "Yes, instance-based learning can be used for real-time decision-making, especially in scenarios where data is available in real-time. Instance-based learning can provide quick and efficient decision-making by leveraging previously encountered data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_010.png",
+        "question": "Summarize the contents of the slide.",
+        "original_response": "The slide presents instance-based learning as a machine learning paradigm that includes K-Nearest Neighbor Algorithm, Weighted Regression, and Case-based reasoning as techniques.",
+        "predicted_response": "Instance-based learning involves techniques such as k-nearest neighbor algorithm, weighted regression, and case-based reasoning. These methods aim to improve the accuracy and efficiency of learning from data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_010.png",
+        "question": "What are some possible variations or improvements to the K-Nearest Neighbor algorithm?",
+        "original_response": "Variations or improvements could include optimizing the choice of 'k', using feature weighting to improve distance measures, or applying dimensionality reduction techniques for efficiency.",
+        "predicted_response": "Possible variations or improvements to the K-Nearest Neighbor algorithm include using different distance metrics, incorporating additional features or attributes, implementing techniques for handling high-dimensional data, and exploring more advanced clustering techniques such as hierarchical clustering or density-based clustering.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_010.png",
+        "question": "Distinguish between the algorithms listed on the slide.",
+        "original_response": "K-Nearest Neighbor makes predictions based on the majority vote of its neighbors, Weighted Regression assigns weights to data points to predict values, and Case-based reasoning solves new problems based on solutions to similar past problems.",
+        "predicted_response": "The algorithms listed on the slide are K-nearest neighbor algorithm, weighted regression, and case-based reasoning.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_010.png",
+        "question": "Compose a short story to illustrate how case-based reasoning works.",
+        "original_response": "Once upon a time in DataLand, a detective named Casy was famous for solving mysteries using old case files. Each time a new mystery arose, Casy would recall similar past cases, consider what was done, and apply those lessons to the current situation, often leading to a swift resolution.",
+        "predicted_response": "Once upon a time, in a small village, there lived a wise old man who had the ability to solve any problem. One day, a young boy came to him with a problem. The boy had lost his way and needed help finding his way home. The wise old man listened carefully to the boy's description of his surroundings and used his vast knowledge to guide the boy back home. From that day on, the wise old man was known as the village's case-based reasoning expert.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_012.png",
+        "question": "What does k-NN stand for?",
+        "original_response": "k-NN stands for K-Nearest Neighbor, which is a type of instance-based learning algorithm.",
+        "predicted_response": "k-NN stands for k-nearest neighbors.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_012.png",
+        "question": "Explain why k is chosen to be an odd number.",
+        "original_response": "k is usually chosen to be an odd number to avoid ties. This means that there will not be a case where an equal number of nearest neighbors belong to different classes, which would make it difficult to decide the class of the test sample.",
+        "predicted_response": "k is chosen to be an odd number to avoid ties in the classification process.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_012.png",
+        "question": "What are the main features of the K-Nearest Neighbor algorithm as listed on the slide?",
+        "original_response": "The main features include all instances corresponding to points in an n-dimensional Euclidean space, classification being delayed until a new instance arrives, classification by comparing feature vectors of different points, and the target function being discrete or real-valued.",
+        "predicted_response": "The main features of the K-Nearest Neighbor algorithm include the use of a similarity measure to determine the distance between instances, the classification rule to assign instances to the nearest training samples, and the K-Nearest Neighbor rule to select the K nearest training samples.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_012.png",
+        "question": "How does the K-Nearest Neighbor algorithm classify a new sample?",
+        "original_response": "The K-Nearest Neighbor algorithm classifies a new sample by assigning it the majority category label of its k nearest training samples.",
+        "predicted_response": "The K-Nearest Neighbor algorithm classifies a new sample by determining the category label of the sample that is nearest to it in feature space.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_012.png",
+        "question": "Provide a summary of the K-Nearest Neighbor classification process.",
+        "original_response": "The K-Nearest Neighbor algorithm assigns a class to a new instance based on the majority vote of the 'k' closest instances from the training set, with 'k' typically being an odd number to avoid ties.",
+        "predicted_response": "K-Nearest Neighbor classification involves selecting the K most similar instances from the training dataset to classify new samples.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_012.png",
+        "question": "What might be the implications of choosing a very high value of k in k-NN?",
+        "original_response": "Choosing a very high value of 'k' might smooth out the predictions too much, leading to a bias towards the more prevalent class and potentially reducing the sensitivity to smaller, yet significant, patterns in the dataset.",
+        "predicted_response": "Choosing a very high value of k may lead to overfitting, where the model becomes too complex and may not generalize well to unseen data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_012.png",
+        "question": "Classify the features of k-NN as either related to the model structure or the classification process.",
+        "original_response": "Model structure-related features include instances as points in an n-dimensional space and the target function. Classification process-related features include the delay of classification until a new instance arrives and comparison of feature vectors.",
+        "predicted_response": "The features of k-NN are related to the classification process, specifically in the target function, where the distance between samples is calculated.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_012.png",
+        "question": "Imagine a scenario where k-NN could be used in a creative industry.",
+        "original_response": "In the fashion industry, k-NN could be used to recommend clothing items to customers by comparing their past purchases (training instances) to items currently in stock, determining the 'k' most similar items to suggest.",
+        "predicted_response": "In a creative industry, k-NN could be used to analyze and categorize artistic styles, such as in the analysis of paintings or sculptures.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_013.png",
+        "question": "What does the 'nearest neighbor' refer to in the context of the slide?",
+        "original_response": "In the context of the slide, the 'nearest neighbor' refers to the data points that are closest in distance to a particular record 'x' within the feature space.",
+        "predicted_response": "The 'nearest neighbor' refers to the data point that is closest to the given data point in the context of the slide.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_013.png",
+        "question": "Explain what is depicted in the diagrams on the slide.",
+        "original_response": "The diagrams illustrate the concept of 1-nearest neighbor, 2-nearest neighbors, and 3-nearest neighbors. They show how the nearest neighbors to a point 'x' are determined based on the smallest distances.",
+        "predicted_response": "The diagrams on the slide represent the definition of a nearest neighbor in terms of data points.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_013.png",
+        "question": "How do the diagrams demonstrate the selection of k in k-NN?",
+        "original_response": "The diagrams demonstrate the selection of k by showing circles of increasing radii that encompass the closest 1, 2, and 3 neighbors to point 'x', which is how k-nearest neighbors are chosen.",
+        "predicted_response": "The diagrams demonstrate the selection of k by showing the distances between data points and the k-nearest neighbors.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_013.png",
+        "question": "What could be the implication of choosing different values of k for the same dataset?",
+        "original_response": "Choosing different values of k can impact the classification outcome. A smaller k may be more sensitive to noise, while a larger k may smooth out anomalies but also potentially ignore significant, though less frequent, patterns.",
+        "predicted_response": "Choosing different values of k may lead to different interpretations of the dataset and affect the clustering results.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_013.png",
+        "question": "Summarize what the concept of k-nearest neighbors entails.",
+        "original_response": "K-nearest neighbors involves identifying the 'k' data points closest to a new instance based on distance measures, and using these points to predict the classification or value of the instance.",
+        "predicted_response": "The concept of k-nearest neighbors involves identifying the data points that are closest to a given data point within a specified distance threshold.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_013.png",
+        "question": "Brainstorm how the concept of nearest neighbor can be applied outside of machine learning.",
+        "original_response": "The concept can be applied in recommendation systems, where users are suggested products similar to their past preferences, in social networks to suggest friends, or in clustering algorithms to group similar data points in various industries.",
+        "predicted_response": "The concept of nearest neighbor can be applied in various fields such as geography, biology, and social sciences to identify similarities or associations between entities based on their proximity.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_013.png",
+        "question": "Classify the examples shown in the diagrams based on their distance to the point 'x'.",
+        "original_response": "In diagram (a), the data point within the smallest circle is classified as the 1-nearest neighbor. In diagram (b), the two closest points are classified as 2-nearest neighbors. In diagram (c), the three points within the largest circle are the 3-nearest neighbors to point 'x'.",
+        "predicted_response": "The examples shown in the diagrams are classified as 'nearest neighbor' if they are within the smallest distance to the point 'x'.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_013.png",
+        "question": "Write a creative explanation for k-nearest neighbors using a real-life analogy.",
+        "original_response": "Imagine you're at a party and you want to join a conversation. You look for the group of people closest to you - that's your 1-nearest neighbor. If you're feeling more social, you might consider the nearest two groups, your 2-nearest neighbors. The concept of k-nearest neighbors is like finding the closest groups you might fit into based on proximity, where 'k' is how many groups you consider.",
+        "predicted_response": "Imagine a group of people standing in a circle, each person representing a data point. The k-nearest neighbors are like the people standing closest to each other, forming a cluster of friends.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_014.png",
+        "question": "What is the basic idea of classification according to the slide?",
+        "original_response": "The basic idea is to classify a given record by identifying nearby records with similar predictor values and then classifying the record as the predominant class among these neighbors.",
+        "predicted_response": "The basic idea of classification is to assign each record to a class based on its similarity to other records.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_014.png",
+        "question": "What does 'near' refer to in the context of this classification method?",
+        "original_response": "'Near' refers to records that have similar predictor values to the record that needs to be classified.",
+        "predicted_response": "'Near' refers to records with similar predictor values.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_014.png",
+        "question": "How does one determine the class of a record?",
+        "original_response": "The class of a record is determined by the predominant class among its nearest records, which are identified by similarity in predictor values.",
+        "predicted_response": "The class of a record is determined by its proximity to other records.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_014.png",
+        "question": "What factors could influence the classification of a record?",
+        "original_response": "Factors influencing classification include the distance measure used to identify 'near' records, the number of neighbors considered (k-value), and the distribution of classes within the neighbors.",
+        "predicted_response": "Factors such as the presence of specific keywords, the similarity of the record to known classes, and the proximity of the record to other records in the dataset could influence the classification.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_014.png",
+        "question": "Summarize the classification strategy presented on the slide.",
+        "original_response": "The slide outlines a strategy where a record is classified by comparing it with nearby records that have similar characteristics, with the assumption that similar records will belong to the same class.",
+        "predicted_response": "The slide presents a classification strategy where records are classified as either near neighbors or non-near neighbors based on their similarity.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_014.png",
+        "question": "Brainstorm alternative ways to determine 'nearness' of records besides using predictor values.",
+        "original_response": "Nearness could be determined by using different types of distance measures like Manhattan or Hamming distance, by incorporating domain-specific knowledge, or by using clustering techniques to group similar records.",
+        "predicted_response": "Consider using other criteria such as geographical proximity, common interests, or shared connections to determine 'nearness' of records.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_014.png",
+        "question": "What classification method is described in the slide?",
+        "original_response": "The classification method described is instance-based learning, specifically the nearest neighbor classification technique.",
+        "predicted_response": "The slide describes the Nearest Neighbor (NN) classification method.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_014.png",
+        "question": "Write a creative narrative that explains the classification process described on the slide.",
+        "original_response": "In the land of DataTopia, every new inhabitant is welcomed by finding the neighborhood with residents most similar to them. The newcomer is then given the same label as the majority of those residents, ensuring everyone lives among the most similar neighbors, making it a harmonious place.",
+        "predicted_response": "Imagine a magical forest where each tree is unique, but they all share a common language. The forest's magical creatures, like the wise owl and the playful squirrel, use this language to communicate with each other. The classification process is like a magical tool that helps the creatures identify the trees by their language. It groups the trees together based on their similarities, making it easier for the creatures to understand and communicate with each other.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_015.png",
+        "question": "What is the most popular distance measure used to determine 'nearby' in the context of the slide?",
+        "original_response": "The most popular distance measure used to determine 'nearby' is the Euclidean distance.",
+        "predicted_response": "The most popular distance measure used to determine 'nearby' is the Euclidean distance.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_015.png",
+        "question": "Provide the formula for Euclidean distance as mentioned on the slide.",
+        "original_response": "The formula for Euclidean distance given is the square root of the sum of the squares of the differences between corresponding values of the points, denoted as \u221a((x1 - u1)\u00b2 + (x2 - u2)\u00b2 + ... + (xp - up)\u00b2).",
+        "predicted_response": "The formula for Euclidean distance is given as the square root of the sum of squared differences between each data point and the mean.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_015.png",
+        "question": "Why is Euclidean distance commonly used in k-NN algorithms?",
+        "original_response": "Euclidean distance is commonly used in k-NN algorithms because it is a straightforward measure of the straight-line distance between two points in Euclidean space, making it intuitively easy to understand and compute.",
+        "predicted_response": "Euclidean distance is commonly used in k-NN algorithms because it is a simple and efficient method for measuring the distance between data points in a high-dimensional space.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_015.png",
+        "question": "Could there be situations where Euclidean distance is not the best choice?",
+        "original_response": "Yes, Euclidean distance might not be the best choice in situations where the data has different scales, the dimensions have different units, or in high-dimensional spaces where Euclidean distance can become less meaningful due to the curse of dimensionality.",
+        "predicted_response": "Yes, Euclidean distance may not be the most appropriate choice in certain situations, such as when dealing with non-Euclidean data or when considering different types of distances that are better suited to specific data characteristics.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_015.png",
+        "question": "Summarize the concept of Euclidean distance as presented on the slide.",
+        "original_response": "Euclidean distance is a measure used to determine the 'nearness' of points in space, calculated by taking the square root of the sum of squared differences between the points' coordinates.",
+        "predicted_response": "Euclidean distance is the most popular distance measure, calculated as the square root of the sum of squared differences between two points.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_015.png",
+        "question": "Brainstorm other distance measures that can be used instead of Euclidean distance.",
+        "original_response": "Other distance measures include Manhattan distance, which sums the absolute values of differences, Chebyshev distance taking the maximum absolute difference, and Mahalanobis distance considering the data's covariance.",
+        "predicted_response": "Other distance measures include Manhattan distance, Hamming distance, cosine similarity, and Jaccard similarity.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_015.png",
+        "question": "Classify the type of distance measure Euclidean distance is.",
+        "original_response": "Euclidean distance is a metric distance measure used for its simplicity and efficiency in measuring the 'straight-line' distance between two points in Euclidean space.",
+        "predicted_response": "Euclidean distance is a metric distance measure.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_015.png",
+        "question": "Compose a metaphor to explain Euclidean distance in simple terms.",
+        "original_response": "Euclidean distance can be metaphorically described as the 'as-the-crow-flies' distance. Just as a crow would fly directly to its destination, Euclidean distance measures the most direct path between two points in space.",
+        "predicted_response": "Euclidean distance is like walking from one point to another on a map. The shorter the distance, the closer you are to your destination.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_016.png",
+        "question": "What does 'k' represent in k-NN?",
+        "original_response": "'k' represents the number of nearby neighbors to be used to classify a new record.",
+        "predicted_response": "'k' represents the number of nearest neighbors used to classify the new record.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_016.png",
+        "question": "What does K=1 and K=5 signify in k-NN?",
+        "original_response": "K=1 means using the single nearest record for classification, while K=5 means using the 5 nearest records.",
+        "predicted_response": "K=1 means using a single nearest neighbor, while K=5 means using the 5 nearest neighbors.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_016.png",
+        "question": "How is the value of 'k' typically chosen in k-NN?",
+        "original_response": "The value of 'k' is typically chosen based on which value results in the lowest error rate in validation data.",
+        "predicted_response": "The value of 'k' is typically chosen based on the desired level of accuracy and the desired number of nearest neighbors.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_016.png",
+        "question": "Why is validation data used to determine the best value of 'k'?",
+        "original_response": "Validation data is used to determine the best value of 'k' because it provides a way to test the performance of the model on unseen data, helping to avoid overfitting to the training set.",
+        "predicted_response": "Validation data is used to determine the best value of 'k' because it provides an independent set of data that has not been used for training the model. By evaluating the model's performance on this data, the best value of 'k' can be determined that minimizes the error rate.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_016.png",
+        "question": "Summarize the key considerations in choosing the value of 'k' in k-NN.",
+        "original_response": "When choosing 'k' in k-NN, the main consideration is to select a value that leads to the highest classification accuracy on validation data, indicating a balance between overfitting and underfitting.",
+        "predicted_response": "The value of 'k' should be chosen to minimize the error rate in validation data, typically by selecting the lowest error rate.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_016.png",
+        "question": "Brainstorm potential issues with selecting either a very low or very high value of 'k'.",
+        "original_response": "A very low value of 'k' may lead to a model that is too sensitive to outliers, while a very high value of 'k' may result in a model that is too general and fails to capture important nuances in the data.",
+        "predicted_response": "Issues with selecting a very low or very high value of 'k' may include overfitting or underfitting the data, leading to poor generalization and inaccurate predictions.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_016.png",
+        "question": "Classify the method of choosing 'k' based on the error rate as empirical or theoretical.",
+        "original_response": "Choosing 'k' based on the error rate is an empirical method, as it relies on observed performance metrics rather than theoretical guarantees.",
+        "predicted_response": "The method of choosing 'k' based on the error rate is empirical, as it involves evaluating the performance of different values of 'k' in validation data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_018.png",
+        "question": "What is the principle behind the 1-Nearest Neighbor classifier?",
+        "original_response": "The principle behind the 1-Nearest Neighbor classifier is to simply label a new point the same as the closest known point in the data set.",
+        "predicted_response": "The 1-Nearest Neighbor classifier assigns instances to the class with the highest density of instances in the feature space.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_018.png",
+        "question": "How does the 1-Nearest Neighbor algorithm classify a new data point?",
+        "original_response": "The 1-Nearest Neighbor algorithm classifies a new data point by assigning it the same label as the nearest point to it in the feature space.",
+        "predicted_response": "The 1-Nearest Neighbor algorithm classifies a new data point by determining which class it belongs to based on the class of the closest data point in the training dataset.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_018.png",
+        "question": "Why is the 1-Nearest Neighbor considered one of the simplest machine learning classifiers?",
+        "original_response": "The 1-Nearest Neighbor is considered one of the simplest classifiers because it involves a straightforward comparison with the closest training example, without the need for learning or model fitting.",
+        "predicted_response": "The 1-Nearest Neighbor is considered one of the simplest machine learning classifiers because it involves a single parameter, the distance threshold, which determines the closeness of data points to the decision boundary.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_018.png",
+        "question": "What could be the drawback of using the 1-Nearest Neighbor classifier?",
+        "original_response": "The drawback of using the 1-Nearest Neighbor classifier is that it can be very sensitive to noise in the data, as it relies on only the single closest point for classification.",
+        "predicted_response": "The drawback of using the 1-Nearest Neighbor classifier is that it may not generalize well to new data points, as it relies on the training data and may not capture complex patterns or relationships.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_018.png",
+        "question": "Summarize the 1-Nearest Neighbor classification method.",
+        "original_response": "The 1-Nearest Neighbor is a simple classification method that assigns the label of the nearest training point to a new data point, based on the shortest distance in the feature space.",
+        "predicted_response": "The 1-Nearest Neighbor method involves selecting the data point closest to the query point as the predicted class label.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_018.png",
+        "question": "Brainstorm scenarios where a 1-Nearest Neighbor classifier would be ideally used.",
+        "original_response": "A 1-Nearest Neighbor classifier would be ideal in scenarios with little to no noise in the data and when the dataset is not too large, allowing for quick, simple classification without the risk of overfitting.",
+        "predicted_response": "A 1-Nearest Neighbor classifier would be ideal in scenarios where the focus is on identifying the most similar data points, such as in image classification for object recognition, in bioinformatics for protein similarity analysis, or in spelling correction for language models.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_018.png",
+        "question": "Classify the type of learning algorithm the 1-Nearest Neighbor is.",
+        "original_response": "The 1-Nearest Neighbor is a type of instance-based, or lazy learning algorithm, which does not build a model but instead makes predictions using the entire dataset.",
+        "predicted_response": "The 1-Nearest Neighbor is a type of machine learning algorithm that uses the nearest data point to make predictions.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_018.png",
+        "question": "Compose a creative explanation for how the 1-Nearest Neighbor algorithm works.",
+        "original_response": "Imagine you are in a new city trying to find a place to eat. You ask a passerby \u2013 the nearest 'neighbor' \u2013 for a recommendation. You decide to go where they suggest, assuming the closest person knows best. This is like the 1-Nearest Neighbor approach, where the closest data point provides the solution.",
+        "predicted_response": "Imagine a group of people standing in a circle, each person representing a data point. The 1-Nearest Neighbor algorithm is like asking each person to introduce themselves to the person next to them. The person they choose is their 1-Nearest Neighbor, and they become friends.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_019.png",
+        "question": "How does k-Nearest Neighbor generalize 1-NN?",
+        "original_response": "k-Nearest Neighbor generalizes 1-NN by considering the most frequent label of the 'k' nearest neighbors to classify a new point, rather than relying on just the single nearest neighbor. This helps to smooth away noise in the labels.",
+        "predicted_response": "k-Nearest Neighbor generalizes 1-NN by considering a larger number of neighbors, allowing for more flexible and adaptable classification.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_019.png",
+        "question": "What happens when you increase the value of 'k' in k-NN?",
+        "original_response": "When the value of 'k' is increased in k-NN, the algorithm considers more neighbors to determine the label of a new point, which can lead to smoother decision boundaries and potentially less sensitivity to noise.",
+        "predicted_response": "Increasing the value of 'k' in k-NN can lead to more accurate clustering, as it allows for more flexible grouping of data points. However, it may also increase computational complexity.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_019.png",
+        "question": "Why is the most frequent label of the nearest neighbors used in k-NN?",
+        "original_response": "The most frequent label of the nearest neighbors is used in k-NN to make the classification more robust to outliers and noise, as it relies on a majority vote rather than a single nearest point.",
+        "predicted_response": "The most frequent label of the nearest neighbors is used in k-NN because it represents the most common class among the nearest neighbors, which is likely to be the class of the data point being considered.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_019.png",
+        "question": "What could be a potential drawback of using a very large 'k' in k-NN?",
+        "original_response": "A potential drawback of using a very large 'k' in k-NN is that it may oversmooth the classifier, causing it to miss important local structures in the data and potentially leading to underfitting.",
+        "predicted_response": "A potential drawback of using a very large 'k' in k-NN is that it may lead to computational complexity issues, especially when dealing with large datasets.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_019.png",
+        "question": "Summarize how k-NN works as described on the slide.",
+        "original_response": "The k-NN algorithm works by classifying a new data point based on the most frequent label among its 'k' nearest neighbors, which helps to mitigate noise and make the classifier more stable.",
+        "predicted_response": "k-NN generalizes nn to a smooth away noise in the labels. A new point is assigned to the nearest neighbor, and the most frequent label of its nearest neighbors is assigned to the point.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_019.png",
+        "question": "Brainstorm how changing values of 'k' could affect the performance of k-NN in different datasets.",
+        "original_response": "In datasets with lots of noise, a higher 'k' might improve performance by reducing overfitting. In contrast, in datasets where the class boundaries are very intricate, a lower 'k' might capture the complexity better but could also fit to noise.",
+        "predicted_response": "Changing values of 'k' could affect the performance of k-NN by altering the number of neighbors used for classification.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_019.png",
+        "question": "Classify the k-NN algorithm based on the slide's description.",
+        "original_response": "Based on the slide's description, k-NN is a non-parametric, instance-based learning algorithm that classifies new instances based on a majority vote of its neighbors.",
+        "predicted_response": "The k-NN algorithm can be classified as a density-based clustering method, as it relies on the density of data points within a specified distance to determine the most frequent labels of its nearest neighbors.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_019.png",
+        "question": "Create an analogy to explain the k-NN algorithm.",
+        "original_response": "Think of k-NN like deciding on the most popular meal at a dinner party. Instead of just asking your immediate neighbor, you ask 'k' guests closest to you and choose the meal that the majority prefers. This way, your choice accounts for a broader preference range and is less likely to be skewed by one unusual choice.",
+        "predicted_response": "Imagine you are trying to find a new friend in a crowded room. You ask everyone in the room to introduce themselves, and based on their responses, you determine which person is most likely to be your new friend.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_020.png",
+        "question": "How are instances represented in K-Nearest Neighbor?",
+        "original_response": "In K-Nearest Neighbor, an arbitrary instance is represented by its features, denoted as (a1(x), a2(x), a3(x),..., an(x)), where each ai(x) denotes a specific feature of the instance.",
+        "predicted_response": "Instances are represented by their features, and the Euclidean distance between instances is calculated.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_020.png",
+        "question": "What distance measure is used in K-Nearest Neighbor?",
+        "original_response": "The Euclidean distance measure is used between two instances in K-Nearest Neighbor, calculated as the square root of the sum of the squares of the differences between corresponding features.",
+        "predicted_response": "The Euclidean distance is used in K-Nearest Neighbor.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_020.png",
+        "question": "How is the target function value determined in K-Nearest Neighbor for regression?",
+        "original_response": "For a continuous valued target function in K-Nearest Neighbor, the value is determined by taking the mean value of the k nearest training examples to the instance being considered.",
+        "predicted_response": "The target function value is determined by calculating the sum of squared errors between the observed and predicted values for each instance.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_020.png",
+        "question": "Why is the Euclidean distance preferred in K-Nearest Neighbor?",
+        "original_response": "Euclidean distance is preferred in K-Nearest Neighbor because it is a natural way of measuring the straight-line distance between points in Euclidean space, which is intuitive and computationally straightforward.",
+        "predicted_response": "The Euclidean distance is preferred in K-Nearest Neighbor because it is a continuous and differentiable function, making it easier to optimize and compute.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_020.png",
+        "question": "Summarize how K-Nearest Neighbor works for continuous and categorical target variables.",
+        "original_response": "In K-Nearest Neighbor, for categorical target variables, the most frequent label of the k nearest neighbors is used. For continuous target variables, the mean value of the k nearest training examples is used to predict the output.",
+        "predicted_response": "K-Nearest Neighbor works for continuous target variables by calculating the Euclidean distance between instances and selecting the K nearest neighbors. For categorical target variables, K-Nearest Neighbor uses one-hot encoding to represent each instance as a vector and calculates the distance between instances based on their feature vectors.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_020.png",
+        "question": "Brainstorm how different feature scaling methods might affect the K-Nearest Neighbor algorithm.",
+        "original_response": "Different feature scaling methods can significantly affect the K-Nearest Neighbor algorithm because the distance measure is sensitive to the scale of the data. Normalization or standardization can ensure that all features contribute equally to the distance calculation.",
+        "predicted_response": "Different feature scaling methods can affect the K-Nearest Neighbor algorithm by altering the distances between instances, potentially leading to changes in the choice of the optimal number of neighbors (K) and the resulting classification decisions.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_020.png",
+        "question": "Classify the K-Nearest Neighbor algorithm based on its use of feature representation and distance calculation.",
+        "original_response": "The K-Nearest Neighbor algorithm can be classified as a distance-based, instance-based learning algorithm because it relies on the distance calculation between feature representations of instances for its predictions.",
+        "predicted_response": "The K-Nearest Neighbor algorithm uses feature representation and distance calculation to determine the similarity between instances. It represents each instance as a vector of features and calculates the Euclidean distance between instances based on their feature values.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_020.png",
+        "question": "Create an analogy to explain how the K-Nearest Neighbor algorithm predicts continuous values.",
+        "original_response": "Imagine predicting the price of a house by looking at the sale prices of the closest houses in the neighborhood. The predicted price is an average of those prices, much like K-Nearest Neighbor takes the mean value of the nearest points to predict a continuous value.",
+        "predicted_response": "Imagine a library with books on different shelves. The K-Nearest Neighbor algorithm is like a librarian who recommends books based on the titles of the books they have read. The algorithm predicts the title of a book based on the titles of the books it has read, similar to how the librarian recommends books based on the titles they have read.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_021.png",
+        "question": "What are distance metrics used for in machine learning?",
+        "original_response": "In machine learning, distance metrics are used to quantify how similar or dissimilar two instances are, based on their attribute values. They are fundamental in algorithms that rely on distance, such as K-Nearest Neighbor, for classification or clustering.",
+        "predicted_response": "Distance metrics are used in machine learning for tasks such as clustering, classification, and similarity-based search. They quantify the dissimilarity between data points and are essential for determining the relationships between them.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_021.png",
+        "question": "List the distance metrics presented on the slide.",
+        "original_response": "The distance metrics presented on the slide include Minkowski, Euclidean, Manhattan/city-block, Canberra, Chebyshev, Quadratic, Mahalanobis, Correlation, Chi-square, and Kendall's Rank Correlation.",
+        "predicted_response": "The distance metrics presented on the slide include Euclidean distance, Manhattan distance, Mahalanobis distance, and cosine similarity.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_021.png",
+        "question": "Explain the difference between Euclidean and Manhattan distance metrics.",
+        "original_response": "Euclidean distance measures the straight-line distance between two points in Euclidean space, while Manhattan distance measures the sum of the absolute differences along each dimension, like navigating a grid-based path.",
+        "predicted_response": "Euclidean distance is the straight-line distance between two points in a multi-dimensional space, while Manhattan distance is the sum of the absolute differences between corresponding coordinates.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_021.png",
+        "question": "Why might one choose the Manhattan distance over the Euclidean distance in certain applications?",
+        "original_response": "One might choose Manhattan distance over Euclidean when the data has grid-like structures, as in urban layouts or in high-dimensional spaces where Manhattan can be more robust to the curse of dimensionality.",
+        "predicted_response": "The Manhattan distance is preferred in applications where the data is represented as vectors with non-negative values, such as in feature vectors in machine learning, as it does not penalize for negative values.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_021.png",
+        "question": "Summarize the concept of distance metrics as they pertain to machine learning.",
+        "original_response": "Distance metrics in machine learning are mathematical formulas used to determine the similarity between instances. The choice of metric can affect the performance of algorithms like K-Nearest Neighbor and is chosen based on the problem's nature and data structure.",
+        "predicted_response": "Distance metrics are used in machine learning to quantify the dissimilarity between instances or data points, facilitating tasks such as clustering, classification, and similarity-based recommendations.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_021.png",
+        "question": "Brainstorm how the choice of distance metric might affect the results in a clustering algorithm.",
+        "original_response": "The choice of distance metric in a clustering algorithm affects how clusters are formed. For instance, Euclidean distance might form spherical clusters, while Manhattan distance could form more axis-aligned clusters, potentially leading to different interpretations of data structure.",
+        "predicted_response": "The choice of distance metric can influence the clustering results by determining how similar or dissimilar data points are considered. Different distance metrics may prioritize different aspects of similarity, leading to different clustering outcomes.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_021.png",
+        "question": "Classify the distance metrics based on whether they are more suitable for categorical or continuous data.",
+        "original_response": "Metrics like Euclidean, Manhattan, and Chebyshev are generally more suitable for continuous data due to their reliance on numerical differences, while Chi-square and Kendall's Rank Correlation are more apt for categorical data.",
+        "predicted_response": "The distance metrics can be classified as more suitable for categorical data, such as Manhattan distance, Hamming distance, and Jaccard similarity, or continuous data, such as Euclidean distance and cosine similarity.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_021.png",
+        "question": "Create an analogy to explain the concept of Minkowski distance to someone unfamiliar with machine learning.",
+        "original_response": "Imagine walking your dog in a park with lots of trees. Minkowski distance is like choosing a path to your favorite tree, where you can adjust your stride (the parameter in Minkowski distance) to take smaller steps (Manhattan) or larger strides (Euclidean) depending on whether you're avoiding puddles or going straight there.",
+        "predicted_response": "Imagine you're comparing two cities based on their population density. Minkowski distance is like calculating the average distance between each city and a central point, weighted by the population density.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_022.png",
+        "question": "What is a Voronoi Diagram?",
+        "original_response": "A Voronoi Diagram is a partitioning of a plane into regions based on distance to points in a specific subset of the plane. Each region comprises all points closer to one particular training example than to any others, effectively forming a decision surface.",
+        "predicted_response": "A Voronoi Diagram is a geometric representation of a set of points in a plane, where each point is assigned to the Voronoi cell that contains it.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_022.png",
+        "question": "How is a decision surface depicted in a Voronoi Diagram?",
+        "original_response": "In a Voronoi Diagram, the decision surface is depicted by the boundaries that separate different regions. Each region corresponds to a training example and consists of all points that are nearest to that training example compared to others.",
+        "predicted_response": "A decision surface is depicted as a blue grid-like structure in a Voronoi Diagram, with each cell representing a decision boundary.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_022.png",
+        "question": "What can a Voronoi Diagram tell us about a dataset?",
+        "original_response": "A Voronoi Diagram can reveal how data is spaced and clustered. It shows the nearest neighbor influence areas, which can help understand the structure of the data and the decision boundaries of nearest neighbor classifiers.",
+        "predicted_response": "A Voronoi Diagram can provide insights into the spatial relationships between data points, such as their proximity, clustering, and distribution. It can help identify clusters or groups of data points that are close together, as well as those that are more isolated.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_022.png",
+        "question": "Why are Voronoi Diagrams important for understanding machine learning models?",
+        "original_response": "Voronoi Diagrams are important for understanding machine learning models because they visually represent the decision logic of nearest neighbor classifiers, indicating how different regions of feature space are classified based on the closest training examples.",
+        "predicted_response": "Voronoi Diagrams are important for understanding machine learning models because they provide a visual representation of data points and their relationships within a dataset. This understanding is crucial for interpreting model outputs, identifying patterns, and making informed decisions based on the learned patterns.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_022.png",
+        "question": "Summarize the function of a Voronoi Diagram in the context of machine learning.",
+        "original_response": "In machine learning, Voronoi Diagrams function as a visual tool to illustrate the areas of influence for each training example in a dataset, which is particularly useful for understanding the behavior of nearest neighbor classifiers.",
+        "predicted_response": "In machine learning, a Voronoi Diagram is used to represent the decision boundary formed by the training examples, with each data point contributing to the formation of the boundary.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_022.png",
+        "question": "Brainstorm the potential uses of Voronoi Diagrams outside of machine learning.",
+        "original_response": "Outside of machine learning, Voronoi Diagrams can be used in various fields such as geography for modeling cellular patterns, in urban planning to designate service areas, and in computer graphics for procedural texture generation.",
+        "predicted_response": "Voronoi Diagrams can be used in various fields such as geographic information systems, computer graphics, and data visualization for tasks like identifying regions of influence, analyzing spatial data, and visualizing hierarchical structures.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_022.png",
+        "question": "Classify the Voronoi Diagram based on the type of machine learning models it can help visualize.",
+        "original_response": "Voronoi Diagrams can be classified as a visualization tool for non-parametric, instance-based learning models, such as the K-Nearest Neighbor classifier, where the proximity of data points is key.",
+        "predicted_response": "The Voronoi Diagram can be classified as a visualization tool for machine learning models, particularly for clustering algorithms.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_022.png",
+        "question": "Create an analogy to explain Voronoi Diagrams to someone without a technical background.",
+        "original_response": "Imagine a large park with several picnic tables. Each table has a 'zone' around it where people tend to go if it's the closest to them. A Voronoi Diagram is like a map of the park showing these zones, so you can see which picnic table is closest from any spot in the park.",
+        "predicted_response": "Imagine you're in a crowded room, and you want to find the nearest person to each other. You can't see their faces, but you can see their backs. So, you draw lines connecting the backs of the people closest to each other. That's like a Voronoi Diagram, where each point is a person, and the lines are the closest points to each other.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_023.png",
+        "question": "What is the significance of a Voronoi cell in a Voronoi Diagram?",
+        "original_response": "In a Voronoi Diagram, a Voronoi cell signifies the region of space that is closer to a particular sample point than to any other. It defines the area of influence for that sample within the dataset.",
+        "predicted_response": "A Voronoi cell represents the area around a data point that is closest to that point, and it is significant as it provides a visual representation of the spatial relationships between data points.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_023.png",
+        "question": "What do the properties of a Voronoi Diagram indicate about the samples and their neighboring points?",
+        "original_response": "The properties of a Voronoi Diagram indicate that any point within a sample's Voronoi cell is nearest to that sample compared to all other samples, and the nearest sample to any given point is determined by the closest Voronoi cell edge.",
+        "predicted_response": "The properties indicate that each sample is assigned a Voronoi cell, which is a region where it is the nearest neighbor to all other samples.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_023.png",
+        "question": "How does a Voronoi Diagram determine the nearest neighboring points for a sample?",
+        "original_response": "A Voronoi Diagram determines the nearest neighboring points for a sample based on the Voronoi cell. All points within a sample's Voronoi cell are closer to that sample than to any other sample in the dataset.",
+        "predicted_response": "A Voronoi Diagram determines the nearest neighboring points for a sample by assigning each data point to the Voronoi cell that contains it, and then identifying the centroid of each Voronoi cell as the nearest neighboring point for the sample.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_023.png",
+        "question": "Why are the edges of Voronoi cells important?",
+        "original_response": "The edges of Voronoi cells are important because they represent the boundaries at which the nearest neighbor relationship changes. For any point on the edge, the two neighboring samples are at the same distance from that point.",
+        "predicted_response": "The edges of Voronoi cells are important as they define the boundaries between different regions, allowing for the identification of individual data points and their associated Voronoi cells.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_023.png",
+        "question": "Summarize the concept and properties of a Voronoi Diagram as presented on the slide.",
+        "original_response": "A Voronoi Diagram is a way of dividing space into distinct regions or cells, each associated with a sample point. The two key properties are that points within a cell are closest to that cell's sample, and the nearest sample to any point is indicated by the closest cell edge.",
+        "predicted_response": "A Voronoi Diagram is a graphical representation of the spatial relationships between objects, where each object is assigned a Voronoi cell, and the Voronoi cell is the region of space closest to the object.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_023.png",
+        "question": "Brainstorm how Voronoi Diagrams might be used in optimizing delivery routes.",
+        "original_response": "Voronoi Diagrams could be used to optimize delivery routes by defining regions closest to each delivery center. This ensures that each delivery is made by the nearest center, potentially reducing travel time and costs.",
+        "predicted_response": "Voronoi Diagrams can be used to optimize delivery routes by identifying the most efficient paths between customers and distribution centers. By analyzing the distances between customers and centers, Voronoi Diagrams can help determine the shortest routes, reducing delivery times and costs.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_023.png",
+        "question": "Classify the Voronoi Diagram as a spatial representation tool and explain its usefulness in data analysis.",
+        "original_response": "Voronoi Diagrams can be classified as spatial representation tools that are useful in data analysis for partitioning data into regions of influence, which can help in identifying clusters, outliers, and the structure of spatial data.",
+        "predicted_response": "The Voronoi Diagram is classified as a spatial representation tool, particularly in data analysis, as it provides a visual representation of data points and their relationships, facilitating the identification of clusters, patterns, and spatial structures.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_023.png",
+        "question": "Create an analogy to explain the properties of Voronoi Diagrams to someone who has never seen one.",
+        "original_response": "Imagine a pizza cut into slices where each slice represents a cell in a Voronoi Diagram. The tip of the slice is the sample point, and the crust represents the cell edge. Any topping that falls on a slice is closest to that tip, and the edge marks where another slice begins, much like how Voronoi cells mark regions closest to specific points.",
+        "predicted_response": "Imagine a Voronoi Diagram as a map of a city, where each neighborhood is a cluster of buildings. The Voronoi cell is like the area within each neighborhood, and the nearest neighboring cell is like the neighboring neighborhoods.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_024.png",
+        "question": "What is the similarity metric used in this KNN example?",
+        "original_response": "The similarity metric used in this KNN example is the number of matching attributes between the examples, with k=2 for the number of neighbors to consider.",
+        "predicted_response": "The similarity metric used in this KNN example is the number of matching attributes between two data points.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_024.png",
+        "question": "How are new examples classified in this KNN example?",
+        "original_response": "New examples are classified by comparing their attributes to existing examples and selecting the class that is most common among the k=2 nearest neighbors based on the number of matching attributes.",
+        "predicted_response": "New examples are classified based on their similarity to existing examples in terms of features and distance.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_024.png",
+        "question": "Explain why Example 2 has two potential classes (Yes/No) according to the KNN results.",
+        "original_response": "Example 2 has two potential classes (Yes/No) because it has an equal number of matches with two existing examples that have different classes. It matches with example 3 (class No) and example 1 (class Yes), both with 3 matching attributes.",
+        "predicted_response": "Example 2 has two potential classes (Yes/No) according to the KNN results because the similarity metric between the query point and the two most similar data points is above the threshold value.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_024.png",
+        "question": "What might be the reason for choosing k=2 in this example?",
+        "original_response": "Choosing k=2 in this example might be for simplicity or because it has been determined through validation that considering the two nearest neighbors provides the most accurate classification for the given data.",
+        "predicted_response": "The reason for choosing k=2 in this example is to demonstrate the effectiveness of the KNN algorithm in capturing similarity between data points.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_024.png",
+        "question": "Summarize the decision process used in the KNN example.",
+        "original_response": "The decision process in the KNN example involves classifying new instances based on the majority vote of the two nearest neighbors. Neighbors are determined by the highest number of matching attributes with the new instance.",
+        "predicted_response": "The KNN example involves determining the similarity between two data points based on their proximity to each other in a feature space.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_024.png",
+        "question": "Brainstorm how the KNN algorithm might perform with a different number of attributes.",
+        "original_response": "With a different number of attributes, the KNN algorithm's performance could vary. Increasing attributes might provide more granularity, but could also introduce noise. Reducing attributes might simplify the model but at the risk of losing important distinguishing features.",
+        "predicted_response": "The KNN algorithm may perform differently depending on the number of attributes. For example, with more attributes, the algorithm may be able to capture more nuanced relationships between instances, but it may also become more computationally expensive.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_024.png",
+        "question": "Classify this KNN example based on the type of features it uses (categorical, numerical, or both).",
+        "original_response": "This KNN example uses categorical features to classify new instances, as the attributes being compared for similarity are descriptive labels rather than numerical values.",
+        "predicted_response": "This KNN example uses both categorical and numerical features.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_024.png",
+        "question": "Create an analogy to explain the KNN classification process shown in the example.",
+        "original_response": "Think of the KNN process like finding your seat in a movie theater without assigned seating. You choose your seat (classify the example) based on the proximity to your friends (nearest neighbors). You consider the preferences of the two closest friends (k=2) and go with the majority preference to sit either at the front or back.",
+        "predicted_response": "Imagine you are at a party and trying to identify the person who is wearing the same color shirt as you. You ask everyone at the party if they are wearing a blue shirt, and if they are, you consider them a neighbor. The more people you ask, the more likely you are to find someone wearing a blue shirt.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_025.png",
+        "question": "What is the effect of increasing 'k' in KNN?",
+        "original_response": "Increasing 'k' in KNN makes the algorithm less sensitive to noise, as it relies on more neighbors to make a classification decision, which can reduce the impact of outliers.",
+        "predicted_response": "Increasing 'k' in KNN can lead to more sensitive to noise and less discriminatory between different classes.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_025.png",
+        "question": "What does decreasing 'k' do in the context of KNN?",
+        "original_response": "Decreasing 'k' in KNN allows the algorithm to capture the finer structure of the feature space, as it considers fewer neighbors, which can highlight more localized patterns.",
+        "predicted_response": "Decreasing 'k' allows for a finer structure of space, but it may not be feasible due to the large size of the dataset.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_025.png",
+        "question": "Why is it important to pick a 'k' value that is neither too large nor too small?",
+        "original_response": "It is important to pick a 'k' value that is neither too large nor too small to balance the trade-off between the sensitivity to noise and the ability to capture the nuances of the data structure.",
+        "predicted_response": "Picking a 'k' value that is neither too large nor too small ensures that the selected neighbors are neither too sparse nor too dense, allowing for a good balance between computational efficiency and effective representation of the data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_025.png",
+        "question": "What factors should be considered when selecting 'k' in KNN?",
+        "original_response": "When selecting 'k' in KNN, factors such as the amount of noise in the data, the complexity of the decision boundary, and the risk of overfitting or underfitting should be considered.",
+        "predicted_response": "Factors such as the desired level of accuracy, computational resources, and the nature of the data should be considered when selecting 'k' in KNN.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_025.png",
+        "question": "Summarize the guidelines for selecting the number of neighbors in KNN as provided on the slide.",
+        "original_response": "The guidelines for selecting the number of neighbors in KNN suggest increasing 'k' to reduce noise sensitivity and decreasing 'k' to detect finer details in data. The optimal 'k' should be chosen based on the specific dataset to avoid being too large or too small.",
+        "predicted_response": "The guidelines suggest that K should be increased to reduce noise, decrease the feature space, and allow for finer structure. However, picking a large K may lead to overfitting and not capture the small-scale dependencies in the data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_025.png",
+        "question": "Brainstorm the potential outcomes of incorrectly choosing 'k' in KNN.",
+        "original_response": "If 'k' is too large, KNN may overlook important patterns and introduce bias towards more prevalent classes. If 'k' is too small, KNN may be overly sensitive to noise, leading to overfitting and poor generalization to new data.",
+        "predicted_response": "Potential outcomes of incorrectly choosing 'k' in KNN may include overfitting the model to the training data, leading to poor generalization on unseen data, or underfitting the model, resulting in poor performance in capturing the underlying structure of the data.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_025.png",
+        "question": "Classify the decision of selecting 'k' in KNN as an example of model parameter tuning.",
+        "original_response": "The decision of selecting 'k' in KNN is an example of model parameter tuning, where the goal is to find the parameter value that leads to the best performance for the given data.",
+        "predicted_response": "Yes, selecting 'k' in KNN is an example of model parameter tuning, as it determines the number of neighbors used in the algorithm.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_025.png",
+        "question": "Create an analogy to explain the process of selecting 'k' in KNN.",
+        "original_response": "Selecting 'k' in KNN is like tuning the strings of a guitar. If you tighten the string too much (too small 'k'), the notes are sharp and can break the string (overfit). If you loosen it too much (too large 'k'), the notes are flat and lack detail (underfit). You need to find the right tension ('k' value) for the perfect pitch (model performance).",
+        "predicted_response": "Imagine you are trying to find a needle in a haystack. You can either look at each individual straw to find the needle or you can look at the structure of the haystack to find the needle more efficiently.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_026.png",
+        "question": "How does the Distance-Weighted Nearest Neighbor Algorithm assign weights to neighbors?",
+        "original_response": "The Distance-Weighted Nearest Neighbor Algorithm assigns weights to neighbors based on their distance from the query point. Typically, the weight may be the inverse square of the distances.",
+        "predicted_response": "The algorithm assigns weights to neighbors based on their distance from the query point.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_026.png",
+        "question": "What is the implication of using distance as a weight in the Nearest Neighbor Algorithm?",
+        "original_response": "Using distance as a weight means that nearer neighbors have a greater influence on the classification of the query point than those further away, which can lead to a more locally sensitive decision boundary.",
+        "predicted_response": "Using distance as a weight in the Nearest Neighbor Algorithm implies that the similarity between data points is determined by their distance from each other. This weighting scheme may influence the training process and affect the learning of the model.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_026.png",
+        "question": "What does Shepard's method refer to in the context of this algorithm?",
+        "original_response": "Shepard's method refers to a type of interpolation used in this algorithm where all training points can potentially influence a particular instance, with the influence determined by the inverse distance weighting.",
+        "predicted_response": "Shepard's method refers to a particular approach to training points in the context of the algorithm.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_026.png",
+        "question": "Why might all training points influence the classification of an instance in this algorithm?",
+        "original_response": "All training points may influence the classification of an instance to ensure that the prediction is informed by the complete dataset, potentially capturing more subtle patterns and reducing the impact of outliers.",
+        "predicted_response": "All training points may influence the classification of an instance in this algorithm because the distance-weighted nearest neighbor rule assigns weights to the neighbors based on their distance from the query point. This weighting scheme may lead to a more nuanced and context-aware classification decision.\n"
+    },
+    {
+        "week": "/scratch/faaraan/SparrowVQA_Model/MachineLearning/images/week_09_page_026.png",
+        "question": "Summarize the Distance-Weighted Nearest Neighbor Algorithm as described on the slide.",
+        "original_response": "The Distance-Weighted Nearest Neighbor Algorithm is a variant of the KNN algorithm that assigns weights to the neighbors based on their distance from the query point, often using the inverse of the distance squared, so that all training points may contribute to the classification of each instance.",
+        "predicted_response": "The Distance-Weighted Nearest Neighbor Algorithm assigns weights to neighboring data points based on their distance from the query point, using a training set to infer the weights. This method may influence the results through its training points.\n"
+    }
+]
